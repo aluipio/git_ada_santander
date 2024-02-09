@@ -15,16 +15,14 @@ class Calculadora:
     def divisao(self, x, y):
         return x/y
     
-<<<<<<< HEAD
     # Recebe dois números e retorna a subtração
     def subtracao(self, x, y):
         return x-y    
     
     # Recebe dois números e retorna a potência
     def potencia(self, x, y):
-        return x**y    
-=======
+        return x**y
+    
     # Recebe dois números e retorna a raiz
     def raiz(self, x, y):
         return x**(1/y)
->>>>>>> operacoes_3
