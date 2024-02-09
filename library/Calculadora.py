@@ -14,3 +14,7 @@ class Calculadora:
     # Recebe dois números e retorna a divisão do primeiro pelo segundo
     def divisao(self, x, y):
         return x/y
+    
+    # Recebe dois números e retorna a divisão do primeiro pelo segundo
+    def subtracao(self, x, y):
+        return x-y    
