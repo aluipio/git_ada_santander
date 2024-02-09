@@ -135,6 +135,10 @@ git status
 * Para atualizar todas as informações: 
 ~~~
 git remote update
+~~~
+
+* Copia todos os commits do repositório REMOTO > LOCAL:
+~~~
 git fetch
 ~~~
 
@@ -202,6 +206,6 @@ git remote add origin [new-url]
 - [Anderson Miranda](https://github.com/aluipio)
 
 ---
-### **Links Úteis**:
+### **Links Úteis** {#custom-id}:
 
 - [Atlassian](https://www.atlassian.com/br/git/tutorials/saving-changes/git-stash)
