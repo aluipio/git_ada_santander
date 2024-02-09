@@ -1,10 +1,6 @@
-
-
 # **GIT code annotations**
 
-#############################################
-##### Primeiro Projeto - passo a passo
-#############################################
+## Primeiro Projeto - passo a passo
 
 1. Crie uma repositório no GitHub
 
@@ -44,9 +40,7 @@ git push -u origin BRANCH
 7. Pronto. Seu primeiro projeto foi armazenado no repositório virtual.
 
 ---
-#############################################
-##### Carregando Projeto existente.
-#############################################
+## Carregando Projeto existente.
 
 1. Localize a link https do projeto interessado.
 
@@ -56,9 +50,7 @@ git clone URL-GERADA-PELO-PASSO-2-AQUI
 ~~~
 
 ---
-#############################################
-##### Operando BRANCHS
-#############################################
+## Operando BRANCHS
 
 1. Visualiza as branchs existentes
 ~~~
@@ -127,9 +119,7 @@ git checkout -- NOME_DO_ARQUIVO
 ~~~
 
 ---
-#############################################
-##### Outras Operações
-#############################################
+## Outras Operações
 
 * Verifica verão do git
 ~~~
@@ -172,9 +162,7 @@ git reset --hard origin/master
 ~~~
 
 ---
-#############################################
-##### Problemas no versionamento
-#############################################
+## Problemas no versionamento
 
 Desde o Release 2.9.0 12, o Git parou de permitir o merge automático de projetos que possuem históricos Git diferentes.
 
@@ -186,21 +174,27 @@ git pull origin master --allow-unrelated-histories
 ~~~
 
 ---
-###########################################################
-##### Controle de link remoto
-###########################################################
+## Controle de link remoto
 
-# Remove origin da lista remota através do comando remove: 
+- Remove origin da lista remota através do comando remove: 
+~~~
 git remote remove origin
+~~~
     
-# Atualiza origin pointing URL com set-url:
+- Atualiza origin pointing URL com set-url:
+~~~
 git remote set-url origin [new-url]
+~~~
 
-# Renomear o manipulador origin handler para outro nome através do comando rename: 
+- Renomear o manipulador origin handler para outro nome através do comando rename: 
+~~~
 git remote rename origin [new-name]
+~~~
 
-# Se um repositório existente ainda não tiver sido clonado e pretende estabelecer uma ligação entre o seu repositório e um servidor remoto:
+- Se um repositório existente ainda não tiver sido clonado e pretende estabelecer uma ligação entre o seu repositório e um servidor remoto:
+~~~
 git remote add origin [new-url]
+~~~
 
 ---
 ### **Auters**:
@@ -208,6 +202,6 @@ git remote add origin [new-url]
 - [Anderson Miranda](https://github.com/aluipio)
 
 ---
-### **Links Úteis** {#custom-id}:
+### **Links Úteis**:
 
 - [Atlassian](https://www.atlassian.com/br/git/tutorials/saving-changes/git-stash)
